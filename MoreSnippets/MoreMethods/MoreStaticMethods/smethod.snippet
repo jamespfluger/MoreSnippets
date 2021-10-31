@@ -2,9 +2,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>smethod1</Title>
-            <Shortcut>smethod1</Shortcut>
-            <Description>Code snippet for a static method with one argument</Description>
+            <Title>smethod</Title>
+            <Shortcut>smethod</Shortcut>
+            <Description>Code snippet for a static method</Description>
             <Author>James Pfluger</Author>
             <SnippetTypes>
                 <SnippetType>Expansion</SnippetType>
@@ -25,21 +25,11 @@
                 <Literal>
                     <ID>methodName</ID>
                     <ToolTip>Name of the method</ToolTip>
-                    <Default>MyMethod</Default>
-                </Literal>
-                <Literal>
-                    <ID>argType</ID>
-                    <ToolTip>Type of the argument</ToolTip>
-                    <Default>int</Default>
-                </Literal>
-                <Literal>
-                    <ID>argName</ID>
-                    <ToolTip>Name of the argument</ToolTip>
-                    <Default>arg1Name</Default>
+                    <Default>MyStaticMethod</Default>
                 </Literal>
             </Declarations>
             <Code Language="csharp">
-                <![CDATA[$accessModifier$ static $returnType$ $methodName$($argType$ $argName$)
+                <![CDATA[$accessModifier$ static $returnType$ $methodName$()
                 {
                     $end$
                 }]]>

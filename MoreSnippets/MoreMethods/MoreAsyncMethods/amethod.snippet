@@ -2,9 +2,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>smethod</Title>
-            <Shortcut>smethod</Shortcut>
-            <Description>Code snippet for a static method</Description>
+            <Title>amethod</Title>
+            <Shortcut>amethod</Shortcut>
+            <Description>Code snippet for an async method</Description>
             <Author>James Pfluger</Author>
             <SnippetTypes>
                 <SnippetType>Expansion</SnippetType>
@@ -20,16 +20,16 @@
                 <Literal>
                     <ID>returnType</ID>
                     <ToolTip>Return type of the method</ToolTip>
-                    <Default>void</Default>
+                    <Default>int</Default>
                 </Literal>
                 <Literal>
                     <ID>methodName</ID>
                     <ToolTip>Name of the method</ToolTip>
-                    <Default>MyMethod</Default>
+                    <Default>MyMethodAsync</Default>
                 </Literal>
             </Declarations>
             <Code Language="csharp">
-                <![CDATA[$accessModifier$ static $returnType$ $methodName$()
+                <![CDATA[$accessModifier$ async Task<$returnType$> $methodName$()
                 {
                     $end$
                 }]]>
