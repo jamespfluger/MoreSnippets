@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+    <CodeSnippet Format="1.0.0">
+        <Header>
+            <Title>smethod3</Title>
+            <Shortcut>smethod3</Shortcut>
+            <Description>Code snippet for a static method with three arguments</Description>
+            <Author>James Pfluger</Author>
+            <SnippetTypes>
+                <SnippetType>Expansion</SnippetType>
+            </SnippetTypes>
+        </Header>
+        <Snippet>
+            <Declarations>
+                <Literal>
+                    <ID>accessModifier</ID>
+                    <ToolTip>Acess modifier of the method</ToolTip>
+                    <Default>public</Default>
+                </Literal>
+                <Literal>
+                    <ID>returnType</ID>
+                    <ToolTip>Return type of the method</ToolTip>
+                    <Default>void</Default>
+                </Literal>
+                <Literal>
+                    <ID>methodName</ID>
+                    <ToolTip>Name of the method</ToolTip>
+                    <Default>MyStaticMethod</Default>
+                </Literal>
+                <Literal>
+                    <ID>arg1Type</ID>
+                    <ToolTip>Type of the first argument</ToolTip>
+                    <Default>int</Default>
+                </Literal>
+                <Literal>
+                    <ID>arg1Name</ID>
+                    <ToolTip>Name of the first argument</ToolTip>
+                    <Default>arg1Name</Default>
+                </Literal>
+                <Literal>
+                    <ID>arg2Type</ID>
+                    <ToolTip>Type of the second argument</ToolTip>
+                    <Default>int</Default>
+                </Literal>
+                <Literal>
+                    <ID>arg2Name</ID>
+                    <ToolTip>Name of the second argument</ToolTip>
+                    <Default>arg2Name</Default>
+                </Literal>
+                <Literal>
+                    <ID>arg3Type</ID>
+                    <ToolTip>Type of the third argument</ToolTip>
+                    <Default>int</Default>
+                </Literal>
+                <Literal>
+                    <ID>arg3Name</ID>
+                    <ToolTip>Name of the third argument</ToolTip>
+                    <Default>arg3Name</Default>
+                </Literal>
+            </Declarations>
+            <Code Language="csharp">
+                <![CDATA[$accessModifier$ static $returnType$ $methodName$($arg1Type$ $arg1Name$, $arg2Type$ $arg2Name$, $arg3Type$ $arg3Name$)
+                {
+                    $end$
+                }]]>
+            </Code>
+        </Snippet>
+    </CodeSnippet>
+</CodeSnippets>

@@ -2,9 +2,9 @@
 <CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
     <CodeSnippet Format="1.0.0">
         <Header>
-            <Title>smethod3</Title>
-            <Shortcut>smethod3</Shortcut>
-            <Description>Code snippet for a static method with three arguments</Description>
+            <Title>amethod2</Title>
+            <Shortcut>amethod2</Shortcut>
+            <Description>Code snippet for an async method with two arguments</Description>
             <Author>James Pfluger</Author>
             <SnippetTypes>
                 <SnippetType>Expansion</SnippetType>
@@ -20,12 +20,12 @@
                 <Literal>
                     <ID>returnType</ID>
                     <ToolTip>Return type of the method</ToolTip>
-                    <Default>void</Default>
+                    <Default>int</Default>
                 </Literal>
                 <Literal>
                     <ID>methodName</ID>
                     <ToolTip>Name of the method</ToolTip>
-                    <Default>MyMethod</Default>
+                    <Default>MyMethodAsync</Default>
                 </Literal>
                 <Literal>
                     <ID>arg1Type</ID>
@@ -47,19 +47,9 @@
                     <ToolTip>Name of the second argument</ToolTip>
                     <Default>arg2Name</Default>
                 </Literal>
-                <Literal>
-                    <ID>arg3Type</ID>
-                    <ToolTip>Type of the third argument</ToolTip>
-                    <Default>int</Default>
-                </Literal>
-                <Literal>
-                    <ID>arg3Name</ID>
-                    <ToolTip>Name of the third argument</ToolTip>
-                    <Default>arg3Name</Default>
-                </Literal>
             </Declarations>
             <Code Language="csharp">
-                <![CDATA[$accessModifier$ static $returnType$ $methodName$($arg1Type$ $arg1Name$, $arg2Type$ $arg2Name$, $arg3Type$ $arg3Name$)
+                <![CDATA[$accessModifier$ async Task<$returnType$> $methodName$($arg1Type$ $arg1Name$, $arg2Type$ $arg2Name$)
                 {
                     $end$
                 }]]>
