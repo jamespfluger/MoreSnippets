@@ -1,16 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0"  xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
-    <Metadata>
-        <Identity Id="MoreMethodSnippets.5b12273e-912a-4b72-9c52-e9ff9e476b13" Version="1.0.1" Language="en-US" Publisher="James Pfluger" />
-        <DisplayName>More Method Snippets for C#</DisplayName>
-        <Description xml:space="preserve">A simple collection of more C# snippets for instance, async, and static methods that do not contain arguments.</Description>
-        <MoreInfo>https://github.com/jamespfluger/MoreSnippets</MoreInfo>
-        <License>LICENSE.txt</License>
-        <Icon>icon-moremethods.png</Icon>
-        <Tags>snippets,snippet,method,method snippet,method snippets</Tags>
-        <Preview>true</Preview>
-    </Metadata>
-    <Installation>
+	<Metadata>
+		<Identity Id="MoreMethodSnippets.5b12273e-912a-4b72-9c52-e9ff9e476b13" Version="1.1.0" Language="en-US" Publisher="James Pfluger" />
+		<DisplayName>More Method Snippets for C#</DisplayName>
+		<Description xml:space="preserve">A simple collection of more C# snippets for instance, async, and static methods that do not contain arguments.</Description>
+		<MoreInfo>https://github.com/jamespfluger/MoreSnippets</MoreInfo>
+		<License>LICENSE.txt</License>
+		<Icon>icon-moremethods.png</Icon>
+		<Tags>snippets,snippet,method,method snippet,method snippets</Tags>
+	</Metadata>
+	<Installation>
 		<InstallationTarget Version="[15.0,17.0)" Id="Microsoft.VisualStudio.Pro">
 			<ProductArchitecture>x86</ProductArchitecture>
 		</InstallationTarget>
@@ -29,13 +28,13 @@
 		<InstallationTarget Version="[17.0,18.0)" Id="Microsoft.VisualStudio.Enterprise">
 			<ProductArchitecture>amd64</ProductArchitecture>
 		</InstallationTarget>
-    </Installation>
-    <Dependencies>
-    </Dependencies>
-    <Assets>
-        <Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="MoreMethodSnippets.pkgdef" />
-    </Assets>
-    <Prerequisites>
-        <Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
-    </Prerequisites>
+	</Installation>
+	<Dependencies>
+	</Dependencies>
+	<Assets>
+		<Asset Type="Microsoft.VisualStudio.VsPackage" d:Source="File" Path="MoreMethodSnippets.pkgdef" />
+	</Assets>
+	<Prerequisites>
+		<Prerequisite Id="Microsoft.VisualStudio.Component.CoreEditor" Version="[15.0,)" DisplayName="Visual Studio core editor" />
+	</Prerequisites>
 </PackageManifest>
