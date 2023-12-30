@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
 	<Metadata>
-		<Identity Id="MoreSnippets.0b15e12c-af0e-4f3c-a6f5-c5843046ad8f" Version="1.1.0" Language="en-US" Publisher="James Pfluger" />
+		<Identity Id="MoreSnippets.0b15e12c-af0e-4f3c-a6f5-c5843046ad8f" Version="1.2.0" Language="en-US" Publisher="James Pfluger" />
 		<DisplayName>More Snippets for C#</DisplayName>
-		<Description xml:space="preserve">A simple collection of more C# snippets for instance methods, async methods, static methods, and constructors with 0-3 arguments.</Description>
+		<Description xml:space="preserve">A simple collection of more C# snippets for instance methods, async methods, static methods, extension methods, and constructors with 0-3 arguments.</Description>
 		<MoreInfo>https://github.com/jamespfluger/MoreSnippets</MoreInfo>
 		<License>LICENSE.txt</License>
 		<Icon>icon-moresnippets.png</Icon>
