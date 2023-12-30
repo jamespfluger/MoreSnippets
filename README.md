@@ -6,7 +6,9 @@ A simple Visual Studio extension that adds more C# snippets for methods and cons
 - [Why is this?](#why-is-this)
 - [Available snippets](#available-snippets)
   - [Regular methods](#regular-methods)
+  - [Async methods](#async-methods)
   - [Static methods](#static-methods)
+  - [Extension methods](#extension-methods)
   - [Constructors](#constructors)
 - [Contributing](#contributing)
 
@@ -28,6 +30,15 @@ Currenlty, there are only snippets for regular methods, static methods, and cons
 | method2      | Code snippet for a method with two arguments      |
 | method3      | Code snippet for a method with three arguments    |
 
+### Async methods
+| **Shortcut** | **Description**                                   |
+|--------------|---------------------------------------------------|
+| amethod      | Code snippet for an async method                      |
+| amethod1     | Code snippet for an async method with one argument    |
+| amethod2     | Code snippet for an async method with two arguments   |
+| amethod3     | Code snippet for an async method with three arguments |
+| amethod3      | Code snippet for an async with three arguments    |
+
 ### Static methods
 | **Shortcut** | **Description**                                   |
 |--------------|---------------------------------------------------|
@@ -35,6 +46,14 @@ Currenlty, there are only snippets for regular methods, static methods, and cons
 | smethod1     | Code snippet for a static method with one argument    |
 | smethod2     | Code snippet for a static method with two arguments   |
 | smethod3     | Code snippet for a static method with three arguments |
+
+### Extension methods
+| **Shortcut** | **Description**                                   |
+|--------------|---------------------------------------------------|
+| xmethod      | Code snippet for an extension method                      |
+| xmethod1     | Code snippet for an extension method with one argument    |
+| xmethod2     | Code snippet for an extension method with two arguments   |
+| xmethod3     | Code snippet for an extension method with three arguments |
 
 ### Constructors
 | **Shortcut** | **Description**                                   |

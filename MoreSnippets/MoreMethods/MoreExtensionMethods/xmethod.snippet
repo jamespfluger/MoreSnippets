@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<CodeSnippets xmlns="http://schemas.microsoft.com/VisualStudio/2005/CodeSnippet">
+	<CodeSnippet Format="1.0.0">
+		<Header>
+			<Title>xmethod</Title>
+			<Shortcut>xmethod</Shortcut>
+			<Description>Code snippet for an extension method</Description>
+			<Author>James Pfluger</Author>
+			<SnippetTypes>
+				<SnippetType>Expansion</SnippetType>
+			</SnippetTypes>
+		</Header>
+		<Snippet>
+			<Declarations>
+				<Literal>
+					<ID>accessModifier</ID>
+					<ToolTip>Acess modifier of the method</ToolTip>
+					<Default>public</Default>
+				</Literal>
+				<Literal>
+					<ID>returnType</ID>
+					<ToolTip>Return type of the method</ToolTip>
+					<Default>void</Default>
+				</Literal>
+				<Literal>
+					<ID>methodName</ID>
+					<ToolTip>Name of the method</ToolTip>
+					<Default>MyMethod</Default>
+				</Literal>
+				<Literal>
+					<ID>extType</ID>
+					<ToolTip>Type of the object to extend</ToolTip>
+					<Default>object</Default>
+				</Literal>
+				<Literal>
+					<ID>extName</ID>
+					<ToolTip>Name of the object to extend</ToolTip>
+					<Default>objectToExtend</Default>
+				</Literal>
+			</Declarations>
+			<Code Language="csharp">
+				<![CDATA[$accessModifier$ $returnType$ $methodName$(this $extType$ $extName$)
+                {
+                    $end$
+                }]]>
+			</Code>
+		</Snippet>
+	</CodeSnippet>
+</CodeSnippets>
